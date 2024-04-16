@@ -1,5 +1,5 @@
-<div *ngFor="let person of people">
-  <div class="row">
+<div class="d-flex flex-row">
+  <div *ngFor="let person of people" clas="row">
     <app-person
       [name]="person.name"
       [age]="person.age"

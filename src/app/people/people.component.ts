@@ -7,7 +7,7 @@ import { People } from '../model/People';
 })
 export class PeopleComponent {
   public people: People[] = [
-    new People('Mano', 30, ['jogar fuetebol', 'malhar', 'ler'], 'Estilista'),
+    new People('Mano', 30, ['jogar futebol', 'malhar', 'ler'], 'Estilista'),
     new People(
       'Truta',
       29,

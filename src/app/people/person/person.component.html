@@ -1,6 +1,11 @@
-<h2>{{ name }}</h2>
-<p>{{ age }}</p>
-<ul *ngFor="let hobbie of hobbies">
-  <li>{{ hobbie }}</li>
-</ul>
-<p>{{ profession }}</p>
+<div class="card m-3" style="width: 24rem; height: 28rem">
+  <div class="card-body">
+    <h2 class="card-title">{{ name }}</h2>
+    <p class="card-subtitle mb-2 text-body-secondary">{{ age }}</p>
+    <p>Hobbies:</p>
+    <ul class="list-group" *ngFor="let hobbie of hobbies">
+      <li class="list-group-item mt-1">{{ hobbie }}</li>
+    </ul>
+    <h3 class="profession-text">{{ profession }}</h3>
+  </div>
+</div>
