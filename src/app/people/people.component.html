@@ -1,3 +1,10 @@
 <div *ngFor="let person of people">
-  <app-person [name]="person.name" [age]="person.age"></app-person>
+  <div class="row">
+    <app-person
+      [name]="person.name"
+      [age]="person.age"
+      [hobbies]="person.hobbies"
+      [profession]="person.profession"
+    ></app-person>
+  </div>
 </div>

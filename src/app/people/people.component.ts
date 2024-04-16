@@ -7,8 +7,19 @@ import { People } from '../model/People';
 })
 export class PeopleComponent {
   public people: People[] = [
-    new People('Mano', 30),
-    new People('Truta', 29),
-    new People('Tiu', 31),
+    new People('Mano', 30, ['jogar fuetebol', 'malhar', 'ler'], 'Estilista'),
+    new People(
+      'Truta',
+      29,
+      [
+        'escrever contos',
+        'montar quebra-cabeças',
+        'colecionar selos',
+        'assistir filmes italianos',
+        'provar novos restaurantes',
+      ],
+      'Crítico Literário'
+    ),
+    new People('Tiu', 31, ['crochê', 'tiro ao alvo'], 'Torneiro Mecânico'),
   ];
 }

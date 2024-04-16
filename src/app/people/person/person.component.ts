@@ -7,4 +7,6 @@ import { Component, Input } from '@angular/core';
 export class PersonComponent {
   @Input() name: string;
   @Input() age: number;
+  @Input() hobbies: string[];
+  @Input() profession: string
 }
